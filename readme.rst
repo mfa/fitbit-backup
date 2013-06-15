@@ -1,5 +1,4 @@
 
-
 ====================================================
  Simple script to backup Fitbit data via Fitbit API
 ====================================================
@@ -16,8 +15,10 @@ Setup
 =====
 
 1) get an API APP key on the Fitbit site: https://dev.fitbit.com/apps/new
-2) authorize your app for your account: (see python-fitbit documentation: ``./fitbit/gather_keys_cli.py <con_key> <con_sec>``)
-3) write a credentials.py with the following content
+2) authorize your app for your account:
+   see python-fitbit documentation: ``./fitbit/gather_keys_cli.py <con_key> <con_sec>``
+3) write a credentials.py with the following content (of course insert your data)
+
 ::
 
   import datetime
@@ -40,6 +41,6 @@ RUN
 FINAL WORDS
 ===========
 
-There is lots of possibilities to improve this script and I am happy to merge pull requests.
-For now this script backups my data and thats what I wanted.
+There are lots of possibilities to improve this script and I am happy to merge pull requests.
+For now this script backups my data and thats what I needed.
 
