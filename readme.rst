@@ -21,7 +21,6 @@ Setup
 
 ::
 
-  import datetime
   APP_KEY = ''
   APP_SECRET = ''
   USER_KEY = ''
