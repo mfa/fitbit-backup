@@ -16,7 +16,7 @@ Setup
 =====
 
 1) get an API APP key on the Fitbit site: https://dev.fitbit.com/apps/new
-2) authorize your app for your account: (see python-fitbit documentation: ``./fitbit/gather_keys_cli.py <con_key> <con_sec>`` )
+2) authorize your app for your account: (see python-fitbit documentation: ``./fitbit/gather_keys_cli.py <con_key> <con_sec>``)
 3) write a credentials.py with the following content
 ::
 
@@ -25,8 +25,6 @@ Setup
   APP_SECRET = ''
   USER_KEY = ''
   USER_SECRET = ''
-  FILENAME = 'NAME.shelf'
-  START_DATE = datetime.date(year=2013,month=6,day=1)
 
 4) create directory "backup" for json-files
 
