@@ -46,8 +46,8 @@ class memoized(object):
 
 
 fb = fitbit.Fitbit(APP_KEY, APP_SECRET,
-                   user_key=USER_KEY,
-                   user_secret=USER_SECRET)
+                   resource_owner_key=USER_KEY,
+                   resource_owner_secret=USER_SECRET)
 
 
 @memoized
